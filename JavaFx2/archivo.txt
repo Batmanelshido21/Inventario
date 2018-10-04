@@ -1,0 +1,22 @@
+
+ nombre: naranja
+
+ peso: 2kg
+
+ precio: $10
+
+ existencia: 1000kg
+
+ Marca: sin marca
+-----
+nombre: manzana
+peso: 3kg
+precio: $25
+existencia: 1000kg
+Marca: sin marca
+-----
+nombre: limon
+peso: 2kg
+precio: $15
+existencia: 1000kg
+Marca: sin marca

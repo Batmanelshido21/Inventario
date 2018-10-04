@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employee.view.MainItemsController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="129.0" fitWidth="154.0" layoutX="205.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Pictures/14t8x07.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="nombreComp" editable="false" layoutX="22.0" layoutY="201.0" prefHeight="25.0" prefWidth="306.0" promptText="nombre" />
+            <TextField fx:id="inputcorreo" layoutX="22.0" layoutY="126.0" prefHeight="25.0" prefWidth="306.0" promptText="correo" />
+            <TextField fx:id="fechaNacimiento" editable="false" layoutX="22.0" layoutY="238.0" prefHeight="25.0" prefWidth="306.0" promptText="fecha de nacimiento" />
+            <TextField fx:id="Genero" editable="false" layoutX="22.0" layoutY="279.0" prefHeight="25.0" prefWidth="306.0" promptText="genero" />
+            <TextField fx:id="Curp" editable="false" layoutX="22.0" layoutY="327.0" prefHeight="25.0" prefWidth="306.0" promptText="curp" />
+            <Button layoutX="360.0" layoutY="201.0" mnemonicParsing="false" onAction="#volver" text="Volver" />
+            <Button layoutX="359.0" layoutY="139.0" mnemonicParsing="false" onAction="#cargar" text="Cargar" />
+            <PasswordField fx:id="inputcontraseña" layoutX="22.0" layoutY="163.0" prefHeight="25.0" prefWidth="305.0" promptText="contraseña" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
